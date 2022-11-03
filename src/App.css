@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-.Menu {
+.Menu, .Quiz, .EndScreen {
   width: 40rem;
   height: 30rem;
   border-radius: 10px;
@@ -18,7 +18,7 @@
   align-items: center;
 }
 
-.Menu > button {
+.Menu > button, .EndScreen > button {
   font-family: Arial, Helvetica, sans-serif;
   width:12rem;
   height: 4rem;
@@ -28,4 +28,55 @@
   font-size: 1.25rem;
   cursor: pointer;
   background-color: #CDF0EA;
+}
+
+.Quiz > .options {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+}
+
+.Quiz .options-btn {
+  font-family: Arial, Helvetica, sans-serif;
+  width:15rem;
+  height: 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  cursor: pointer;
+  background-color: #CDF0EA; 
+}
+
+.Quiz .options-btn:hover {
+  background-color: #F9F9F9;
+}
+
+.Quiz .options-btn:focus {
+  background-color: #E97777;
+  color: #fff;
+}
+
+.Quiz .nxt-btn {
+  background-color: #BCCEF8;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 2.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  cursor: pointer;
+  margin-top: 3rem;
+  width: 10rem;
+}
+.Quiz .nxt-btn:hover {
+  background-color: #fff;
+}
+
+.Menu, .Quiz, .EndScreen {
+  color: #fff;
+}
+
+.restart-btn:hover {
+  background-color: #F9F9F9;
+ 
 }

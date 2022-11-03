@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, {useContext} from 'react'
 import { QuizContext } from '../Helpers/Context'
 // import "../App.css"
